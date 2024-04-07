@@ -21,6 +21,7 @@
         .projekat{
             @include xs{
                 width: 100%;
+                margin-bottom: 10px;
            }
            @include l{
                 width: 31%;
