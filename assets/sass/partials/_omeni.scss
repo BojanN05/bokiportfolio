@@ -13,6 +13,7 @@
         @include pozicija($sa,$c,$col);
         @include xs{
             width: 90%;
+            font-size: 18px;
             
         }
         @include s{
