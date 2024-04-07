@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kdam+Thmor+Pro&family=M+PLUS+Rounded+1c&family=Montserrat:wght@100;300&display=swap');
+$text-color: white;
+$sec: orange;
+$tr: 0.5s;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+a{
+    color: $text-color;
+    text-decoration: none;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    transition: $tr;
+}
+$sb: space-between;
+$sa: space-around;
+$c: center;
+$row: row;
+$col: column;
+$al: center;

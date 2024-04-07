@@ -1,0 +1,31 @@
+<rss version="2.0">
+<channel>
+<title>LICNI PORTFOLIO</title>
+<link> https://bojann05.github.io/BojanNovakovicPortfolio.github.io/</link>
+<description>Portfolio stranica</description>
+<item>
+<title>Pocetna</title>
+<link> https://bojann05.github.io/BojanNovakovicPortfolio.github.io/</link>
+<description>Pocetna stranica portfolia</description>
+</item>
+</channel>
+</rss>
+
+
+<rss version="2.0">
+<channel>
+<title>nesto</title>
+<link>sajt</link>
+<description> nesto o saTJU</description>
+<item>
+<title> prva strana</title>
+<link>sajt</title>
+<description>prvastrana</description>
+</item>
+<item>
+<title>opet</title>
+<link>sajt</link>
+<description>opetr</description>
+</item>
+</channel>
+</rss>

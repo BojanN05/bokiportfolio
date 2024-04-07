@@ -1,0 +1,11 @@
+@mixin pozicija($custom-jc: $sb, $custom-ai: $c, $custom-fd: $row) {
+    display: flex;
+    justify-content: $custom-jc;
+    align-items: $custom-ai;
+    flex-direction: $custom-fd;
+  }
+
+@mixin wCenter{
+    width: $f-w;
+    margin: 0 auto;
+}

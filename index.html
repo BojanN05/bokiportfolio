@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/slike/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive/responsive.css">
+    <meta name="keywords" content="portfolio,projekat,vestine">
+        <meta name="description" content="Ovo je moj portfolio">
+        <meta name="author" content="Bojan Novaković">
+    <title>Bojan Novaković-Portfolio</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+         <a href="#pozadinska_slika"><img src="assets/slike/logo.png" alt="logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#pozadinska_slika">Pocetna</a></li>
+                <li><a href="#O_meni">O meni</a> </li>
+                <li><a href="#vestine">Veštine</a></li>
+                <li><a href="#projekti">Projekti</a></li>
+                <li><a href="#Kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="pozadinska_slika">
+        <div class="text">
+            <h1><span>Dobrodosli na moj portfolio</span></br>
+            Zdravo ja sam Bojan</h1>
+            <p>Web programer,dizajner uvek na usluzi. </p>
+            <a href="#Kontakt">Kontaktiraj me</a>
+        </div>
+        <div id="slika_mene">
+            <img src="assets/slike/mojaslika.jpg" alt="mojaslika">
+        </div>
+    </div>
+    <div id="O_meni">
+        <div class="info_omeni">
+            <p><span>Ime:</span>Bojan</p>
+            <p><span>Prezime:</span>Novaković</p>
+            <p><span>Godine:</span>19</p>
+            <p><span>Email:</span>bojannovakovic49@gmail.com</p>
+            <p><span>Broj:</span>+381/****/****</p>
+        </div>
+        <div class="nesto">
+            <p>
+                Radujem se što ću moći da doprinesem vašem sledećem projektu web razvoja. Bez obzira da li vam je potrebna potpuno nova veb stranica ili želite unaprediti performanse i funkcionalnost postojećeg sajta, tu sam da pomognem. Slobodno me kontaktirajte kako bismo razgovarali o vašem projektu i kako mogu pomoći da ostvarimo vašu viziju.</p>
+                <a href="">Preuzmi CV</a>
+        </div>
+    </div>
+        <div id="vestine">
+            <h1>VEŠTINE</h1>
+            <div class="skilovi">
+                <h2>Moje veštine</h2>
+                <li><h3>html</h3>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+                <li><h3>css</h3>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+                <li><h3>c++</h3>
+                    <span class="bar"><span class="c"></span></span>
+                </li>
+                <li><h3>SASS</h3>
+                    <span class="bar"><span class="SASS"></span></span>
+                </li>
+                <li><h3>JAVASCRIPT</h3>
+                    <span class="bar"><span class="JAVASCRIPT"></span></span>
+                </li>
+                <li><h3>php</h3>
+                    <span class="bar"><span class="php"></span></span>
+                </li>
+            </div>
+
+        </div>
+        <div id="projekti">
+            <div id="naslov_projkti">
+                <h1>Moji Projekti</h1>
+            </div>
+            <div class="wrap">
+            <div class="projekat">
+                <div class="projekat_slika">
+                    <a href="https://zeusteretanagym.000webhostapp.com/html/index.html"><img src="assets/slike/sajt.PNG" alt="slika_sajta"></a>
+                </div>
+                <div class="projekat_tekst">
+                    <p>Ovo je prva statična web stranica koju sam napravio!</p>
+                    <p>To je  web stranica za teretanu i napravljen je samo pomoću HTML-a i CSS-a</p>
+                </div>
+            </div>
+            <div class="projekat">
+                <div class="projekat_slika">
+                    <a href="#"><img src="assets/slike/sajt2.PNG" alt="portfolio"></a>
+                </div>
+                <div class="projekat_tekst">
+                    <p>Ovo je moj licni sajt</p>
+                </div>
+            </div>
+            <div class="projekat">
+                <div class="projekat_slika">
+                    <a href="#"><img src="assets/slike/comingsoon.webp" alt="nadolazeci_sajt"></a>
+                </div>
+                <div class="projekat_tekst">
+                    <p>Nadolazeći sajt</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="Kontakt">
+            <h1>Kontakt</h1>
+            <div class="wraper">
+                <div class="formular">
+                    <form action="obrada.php" method="get">
+                    <input type="text" name="name" id="name" placeholder="Ime" required="required">
+                    <input type="text" name="lastname" id="lastname" placeholder="Prezime" required="required">
+                    <input type="email" name="email" id="email" placeholder="E-mail" required="required">
+                    <textarea name="poruka" id="poruka" cols="30" rows="10" placeholder="Vasa poruka"></textarea>
+                    <button type="submit" value="Pošalji">Pošalji</button>
+                </form>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.3586721084553!2d20.48183987669853!3d44.814257176568205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2z0JLQuNGB0L7QutCwIElDVCDRiNC60L7Qu9Cw!5e0!3m2!1ssr!2srs!4v1708181388329!5m2!1ssr!2srs" width="250" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="ime"><p><a href="#pozadinska_slika">Bojan Novaković</a> &copy;2023</p></div>
+                <div class="ikonice">
+                    <a href="assets/sass/style.scss"><i class="fa-brands fa-sass"></i></a>
+                    <a href="sitemap.xml"><i class="fa-solid fa-sitemap"></i></a>
+                    <a href="assets/css/style.css"><i class="fa-brands fa-css3-alt"></i></a>
+                    <a href="rss.xml"><i class="fa-solid fa-rss"></i></a>
+                    <a href="assets/sass/partials/_responsive.scss"><i class="fa-solid fa-desktop"></i></a>
+                </div>
+        </footer>
+</body>
+</html>

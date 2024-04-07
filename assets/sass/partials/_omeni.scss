@@ -1,0 +1,67 @@
+#O_meni{
+    width: 100%;
+    padding: 30px 30px;
+    background-color: gray;
+    text-align: center;
+    @include xs{
+        @include pozicija($sa,$c,$col); 
+   }
+   @include l{
+        @include pozicija($sa);
+   }
+    .info_omeni{
+        @include pozicija($sa,$c,$col);
+        @include xs{
+            width: 90%;
+            
+        }
+        @include s{
+            width: 60%;
+        }
+        @include m{
+            width: 50%;
+        }
+        @include l{
+            width: 40%;
+        }
+       
+        font-size: 20px;
+        color: $text-color;
+            border-radius: 10%;
+            box-shadow: 0px 0px 13px 3px rgb(51, 51, 51);
+            background-color: rgb(51, 51, 51);
+            text-align: $c;
+            p{
+                @include pozicija($sa,$c,$col);
+                padding: 13px;
+            }
+        span{
+            color: rgb(235, 13, 235);
+        }
+    }
+    .nesto{
+        @include pozicija($sa,$c,$col);
+        p{
+            padding: 40px;
+            color: $text-color;
+            @include xs{
+                font-size: 25px;
+            }
+            @include l{
+                font-size: 1.9vw;
+            }
+        }
+        a{
+            padding: 10px 20px;
+            font-size: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 13px 2px rgb(51 51 51);
+            background-color: #333333;
+        }
+        a:hover{
+            background-color: #6e00fc8f;
+            color: black;
+            transition: 0.8s;
+        }
+    }
+}

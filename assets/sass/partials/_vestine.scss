@@ -1,0 +1,81 @@
+#vestine{
+    width: 100%;
+    padding: 30px;
+    background-color: #181a18;
+    @include pozicija($sa,$c,$col); 
+    h1{
+        padding: 15px;
+        text-align: center;
+        color: $text-color;
+       
+    }
+    .skilovi{
+        @include xs{
+            width: 100%;
+        }
+        @include m{
+            width: 60%;
+        }
+        list-style: none;
+        background-color: #333;
+        text-transform: uppercase;
+        padding: 10px;
+        color: $text-color;
+        box-shadow: 0px 14px 28px rgba(0, 0, 0,0.25), 0 10px 10px 
+        rgba(0, 0, 0, 0.22);
+        border-radius: 5%;
+        li{
+            
+            .bar{
+                background-color: #353b48;
+                display: block;
+                
+                border: 1px solid rgba(0,0,0,0.3);
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0px 1px 3px rgba(0, 0, 0,0.12), 0 1px 2px 
+        rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.24,.8,.25,1);
+        span{
+            height: 20px;
+            float: left;
+            
+        }
+            }
+            .bar:hover{
+                box-shadow: 0px 14px 28px rgba(0, 0, 0,0.25), 0 10px 10px 
+                rgba(0, 0, 0, 0.22);
+            }
+        }
+        h2{
+            text-align: center;
+        }
+        h3{
+            margin: 5px;
+        }
+        .html{
+            width: 90%;
+            background-color: #fc6767;
+        }
+        .css{
+            width: 60%;
+            background-color: #fc5656;
+        }
+        .c{
+            width: 40%;
+            background-color: #fc4545;
+        }
+        .JAVASCRIPT{
+            width: 55%;
+            background-color: #fc5555;
+        }
+        .SASS{
+            width: 70%;
+            background-color: #fc6666;
+        }
+        .php{
+            width: 20px;
+            background-color: #ec888c;
+        }
+    }
+}

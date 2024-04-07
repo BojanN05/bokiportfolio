@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https:// https://bojann05.github.io/BojanNovakovicPortfolio.github.io//sitemap.xml
+rss: https:// https://bojann05.github.io/BojanNovakovicPortfolio.github.io//rss.xml
+responsive: https:// https://bojann05.github.io/BojanNovakovicPortfolio.github.io//responsive.css
+css: https:// https://bojann05.github.io/BojanNovakovicPortfolio.github.io//style.css
+sass: https:// https://bojann05.github.io/BojanNovakovicPortfolio.github.io//style.scss

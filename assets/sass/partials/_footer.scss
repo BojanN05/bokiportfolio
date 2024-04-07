@@ -1,0 +1,39 @@
+footer{
+    width: 100%;
+    @include pozicija($sa);
+    background-color: #3a3a37;
+    color: $text-color;
+    padding: 20px 40px;
+            
+            
+           #ime{
+               
+                
+                p{
+                    color: $text-color;
+                    font-size:1.7vw;
+                    
+                   
+                    a:hover{
+                        color:purple;
+                        text-shadow: 0px 0px 20px black;
+                        transition: 0.8s;
+                    }
+                }
+           }
+    .ikonice{
+        a{
+            padding: 10px 20px;
+            font-size: 2vw;
+            @include xs{
+                padding: 5px 10px;
+            }
+        }
+        
+    }
+    i:hover{
+        color:purple;
+        text-shadow: 0px 0px 20px black;
+        transition: 0.8s;
+    }
+}

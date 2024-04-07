@@ -1,0 +1,511 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Kdam+Thmor+Pro&family=M+PLUS+Rounded+1c&family=Montserrat:wght@100;300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  transition: 0.5s;
+}
+
+header {
+  width: 100%;
+  background-color: #3a3a37;
+}
+@media (min-width: 0) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+header #logo {
+  width: 10%;
+  height: 110px;
+}
+header #logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+header nav {
+  width: 50%;
+  padding: 20px;
+}
+header nav ul {
+  list-style: none;
+}
+@media (min-width: 0) {
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1200px) {
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+header nav ul li {
+  font-size: 30px;
+  padding: 10px;
+}
+header nav ul li a:hover {
+  color: purple;
+  text-shadow: 0px 0px 20px black;
+  transition: 0.8s;
+}
+
+#pozadinska_slika {
+  width: 100%;
+  background-image: url("../slike/zozadina.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+@media (min-width: 0) {
+  #pozadinska_slika {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 860px) {
+  #pozadinska_slika {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+#pozadinska_slika .text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+#pozadinska_slika .text h1 span {
+  font-size: 20px;
+}
+#pozadinska_slika .text a, #pozadinska_slika .text a:hover {
+  border-radius: 5%;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+#pozadinska_slika .text a {
+  border: solid 2px white;
+  margin-top: 10px;
+}
+#pozadinska_slika .text a:hover {
+  border: solid 2px orange;
+  color: orange;
+}
+#pozadinska_slika #slika_mene {
+  padding: 40px;
+}
+@media (min-width: 0) {
+  #pozadinska_slika #slika_mene {
+    width: 100%;
+  }
+}
+@media (min-width: 860px) {
+  #pozadinska_slika #slika_mene {
+    width: 50%;
+  }
+}
+#pozadinska_slika #slika_mene img {
+  width: 100%;
+  border-radius: 10%;
+  box-shadow: 0px 0px 20px 5px #ee771d;
+}
+
+@keyframes slideIn {
+  to {
+    left: 0;
+  }
+}
+#O_meni {
+  width: 100%;
+  padding: 30px 30px;
+  background-color: gray;
+  text-align: center;
+}
+@media (min-width: 0) {
+  #O_meni {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1200px) {
+  #O_meni {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+#O_meni .info_omeni {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  color: white;
+  border-radius: 10%;
+  box-shadow: 0px 0px 13px 3px rgb(51, 51, 51);
+  background-color: rgb(51, 51, 51);
+  text-align: center;
+}
+@media (min-width: 0) {
+  #O_meni .info_omeni {
+    width: 90%;
+  }
+}
+@media (min-width: 480px) {
+  #O_meni .info_omeni {
+    width: 60%;
+  }
+}
+@media (min-width: 860px) {
+  #O_meni .info_omeni {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  #O_meni .info_omeni {
+    width: 40%;
+  }
+}
+#O_meni .info_omeni p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 13px;
+}
+#O_meni .info_omeni span {
+  color: rgb(235, 13, 235);
+}
+#O_meni .nesto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+#O_meni .nesto p {
+  padding: 40px;
+  color: white;
+}
+@media (min-width: 0) {
+  #O_meni .nesto p {
+    font-size: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  #O_meni .nesto p {
+    font-size: 1.9vw;
+  }
+}
+#O_meni .nesto a {
+  padding: 10px 20px;
+  font-size: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 13px 2px rgb(51, 51, 51);
+  background-color: #333333;
+}
+#O_meni .nesto a:hover {
+  background-color: rgba(110, 0, 252, 0.5607843137);
+  color: black;
+  transition: 0.8s;
+}
+
+#vestine {
+  width: 100%;
+  padding: 30px;
+  background-color: #181a18;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+#vestine h1 {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+#vestine .skilovi {
+  list-style: none;
+  background-color: #333;
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+  box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 5%;
+}
+@media (min-width: 0) {
+  #vestine .skilovi {
+    width: 100%;
+  }
+}
+@media (min-width: 860px) {
+  #vestine .skilovi {
+    width: 60%;
+  }
+}
+#vestine .skilovi li .bar {
+  background-color: #353b48;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.24, 0.8, 0.25, 1);
+}
+#vestine .skilovi li .bar span {
+  height: 20px;
+  float: left;
+}
+#vestine .skilovi li .bar:hover {
+  box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+#vestine .skilovi h2 {
+  text-align: center;
+}
+#vestine .skilovi h3 {
+  margin: 5px;
+}
+#vestine .skilovi .html {
+  width: 90%;
+  background-color: #fc6767;
+}
+#vestine .skilovi .css {
+  width: 60%;
+  background-color: #fc5656;
+}
+#vestine .skilovi .c {
+  width: 40%;
+  background-color: #fc4545;
+}
+#vestine .skilovi .JAVASCRIPT {
+  width: 55%;
+  background-color: #fc5555;
+}
+#vestine .skilovi .SASS {
+  width: 70%;
+  background-color: #fc6666;
+}
+#vestine .skilovi .php {
+  width: 20px;
+  background-color: #ec888c;
+}
+
+#projekti {
+  width: 100%;
+  background-color: gray;
+}
+#projekti #naslov_projkti {
+  text-align: center;
+  color: white;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+#projekti .wrap {
+  padding: 20px;
+}
+@media (min-width: 0) {
+  #projekti .wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1200px) {
+  #projekti .wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+#projekti .wrap .projekat {
+  padding: 20px;
+  border: 4px solid black;
+  border-radius: 4%;
+  background-color: #333333;
+}
+@media (min-width: 0) {
+  #projekti .wrap .projekat {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  #projekti .wrap .projekat {
+    width: 31%;
+  }
+}
+#projekti .wrap .projekat .projekat_tekst {
+  color: white;
+  font-size: 1.3vw;
+  text-align: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+@media (min-width: 0) {
+  #projekti .wrap .projekat .projekat_tekst {
+    font-size: 22px;
+  }
+}
+@media (min-width: 860px) {
+  #projekti .wrap .projekat .projekat_tekst {
+    font-size: 25px;
+  }
+}
+#projekti .wrap .projekat .projekat_slika {
+  border-radius: 4%;
+}
+#projekti .wrap .projekat .projekat_slika img {
+  width: 100%;
+}
+#projekti .wrap .projekat .projekat_slika:hover {
+  transform: rotate(2deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+#Kontakt {
+  width: 100%;
+  background-color: #333333;
+  padding: 20px 30px;
+}
+#Kontakt h1 {
+  text-align: center;
+  color: white;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+@media (min-width: 0) {
+  #Kontakt .wraper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1200px) {
+  #Kontakt .wraper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+#Kontakt .wraper .formular {
+  padding: 10px 20px;
+}
+@media (min-width: 0) {
+  #Kontakt .wraper .formular {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  #Kontakt .wraper .formular {
+    width: 50%;
+  }
+}
+#Kontakt .wraper .formular form input {
+  width: 100%;
+  background-color: rgba(16, 16, 16, 0.4901960784);
+  padding: 15px;
+  border: 2px solid #221e1e;
+  border-radius: 15px;
+  color: white;
+}
+#Kontakt .wraper .formular form textarea {
+  width: 100%;
+  background-color: rgba(16, 16, 16, 0.4901960784);
+  color: white;
+  resize: none;
+}
+#Kontakt .wraper .formular form button {
+  width: 100%;
+  background-color: rgba(16, 16, 16, 0.4901960784);
+  padding: 15px;
+  border: 2px solid #221e1e;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+#Kontakt .wraper .mapa {
+  padding: 30px 20px;
+}
+@media (min-width: 0) {
+  #Kontakt .wraper .mapa {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  #Kontakt .wraper .mapa {
+    width: 50%;
+  }
+}
+#Kontakt .wraper .mapa iframe {
+  width: 100%;
+  border-radius: 5%;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: #3a3a37;
+  color: white;
+  padding: 20px 40px;
+}
+footer #ime p {
+  color: white;
+  font-size: 1.7vw;
+}
+footer #ime p a:hover {
+  color: purple;
+  text-shadow: 0px 0px 20px black;
+  transition: 0.8s;
+}
+footer .ikonice a {
+  padding: 10px 20px;
+  font-size: 2vw;
+}
+@media (min-width: 0) {
+  footer .ikonice a {
+    padding: 5px 10px;
+  }
+}
+footer i:hover {
+  color: purple;
+  text-shadow: 0px 0px 20px black;
+  transition: 0.8s;
+}/*# sourceMappingURL=style.css.map */
