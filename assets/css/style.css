@@ -32,13 +32,18 @@ header {
     flex-direction: row;
   }
 }
-header #logo {
-  width: 10%;
-  height: 110px;
+@media (min-width: 0) {
+  header #logo {
+    width: 30%;
+  }
+}
+@media (min-width: 1200px) {
+  header #logo {
+    width: 10%;
+  }
 }
 header #logo img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
 }
 header nav {
   width: 50%;

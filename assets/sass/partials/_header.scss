@@ -8,12 +8,14 @@ header{
     width: 100%;
     background-color: #3a3a37;
     #logo{
-        width: 10%;
-        height: 110px;
+        @include xs{
+           width: 30%;
+       }
+       @include l{
+            width: 10%;
+       }
         img{
-            max-width: 100%;
-            max-height: 100%;
-            
+            width: 100%;
         }
     }
     nav{
