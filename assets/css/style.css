@@ -479,17 +479,38 @@ header nav ul li a:hover {
 
 footer {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
   background-color: #3a3a37;
   color: white;
   padding: 20px 40px;
 }
+@media (min-width: 0) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 860px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+}
 footer #ime p {
   color: white;
-  font-size: 1.7vw;
+}
+@media (min-width: 0) {
+  footer #ime p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 860px) {
+  footer #ime p {
+    font-size: 1.7vw;
+  }
 }
 footer #ime p a:hover {
   color: purple;
@@ -497,8 +518,18 @@ footer #ime p a:hover {
   transition: 0.8s;
 }
 footer .ikonice a {
-  padding: 10px 20px;
+  padding: 5px 10px;
   font-size: 2vw;
+}
+@media (min-width: 0) {
+  footer .ikonice a {
+    font-size: 20px;
+  }
+}
+@media (min-width: 860px) {
+  footer .ikonice a {
+    font-size: 1.7vw;
+  }
 }
 footer i:hover {
   color: purple;

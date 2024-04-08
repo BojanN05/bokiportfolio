@@ -1,9 +1,14 @@
 footer{
     width: 100%;
-    @include pozicija($sa);
     background-color: #3a3a37;
     color: $text-color;
     padding: 20px 40px;
+    @include xs{
+        @include pozicija($sa,$c,column-reverse);
+    }
+    @include m{
+        @include pozicija($sa);
+    }
             
             
            #ime{
@@ -11,8 +16,13 @@ footer{
                 
                 p{
                     color: $text-color;
-                    font-size:1.7vw;
-                    
+                    @include xs{
+                        font-size: 20px;
+                    }
+                    @include m{
+                        font-size: 1.7vw;
+                    }
+
                    
                     a:hover{
                         color:purple;
@@ -23,8 +33,14 @@ footer{
            }
     .ikonice{
         a{
-            padding: 10px 20px;
+            padding: 5px 10px;
             font-size: 2vw;
+            @include xs{
+                font-size: 20px;
+            }
+            @include m{
+                font-size: 1.7vw;
+            }
         }
         
     }
